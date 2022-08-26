@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# This Random generator App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project is created with:
 
-## Available Scripts
+    Bootstrap v5.2
+    React
 
-In the project directory, you can run:
+ # This app was maded for class assignments
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  Create a password generator:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To generate a string, use the values obtained from the following fields:
+Password length (input[type="number"]). Maximum length 50 characters.
+Complexity (input[type="checkbox"]). Possible options:
+Capital letters (The box must be selected after opening the application),
+Lowercase letters (The field must be selected after opening the application),
+numbers,
+Symbols
 
-### `npm test`
+Display a "Clear" button next to the generating form, which, when clicked, would return the form to its original position.
+Below the form, display a list of the last ten generated passwords.
+Store and retrieve data from the localStorage cache.
+Use the desired CSS, HTML frameworks (Bootstrap, Tailwind, Material UI, etc.)
+After finishing the work, upload the code to the Github platform and attach a link to this task.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ # Installation and Setup Instructions
 
-### `npm run build`
+You need to use :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+First you need to have Node.js. If you don't have it, you can download it from here:  https://nodejs.org/en/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone down this repository:  $ git clone https://github.com/Evaldas88/Random-password-generator-.git 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You will need node and npm installed globally on your machine.
 
-### `npm run eject`
+Installation:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To Run Test Suite:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm test
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To Start Server:
 
-## Learn More
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To Visit App:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+localhost:3000/
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Close  App you need  in terminal use comand ctrl + c or kill terminal.
