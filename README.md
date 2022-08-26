@@ -5,7 +5,7 @@ Project is created with:
     Bootstrap v5.2
     React
 
- # This app was maded for class assignments
+ # This app was Created for class assignments
 
 
   Create a password generator:
